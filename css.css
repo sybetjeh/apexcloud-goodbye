@@ -1,0 +1,65 @@
+/* Default styling */
+.divcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+    position: fixed;
+}
+
+div {
+    margin: 16px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05), 200px 200px 500px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    padding: 16px;
+    width: 160px;
+}
+
+
+img {
+    margin-bottom: 16px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: white;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.rounded-button {
+    background-color: #414d7e;
+    /* Set button background color */
+    color: #fff;
+    /* Set button text color */
+    border: none;
+    /* Remove button border */
+    border-radius: 50px;
+    /* Set border radius to half the button height to create a rounded button */
+    padding: 16px 32px;
+    /* Set button padding */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Add depth effect with box-shadow */
+    transition: transform 0.2s;
+    /* Add transition effect when button is hovered */
+}
+
+.rounded-button:hover {
+    transform: translateY(-2px);
+    /* Move button up slightly when hovered to create click effect */
+}
